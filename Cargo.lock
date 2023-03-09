@@ -921,6 +921,16 @@ dependencies = [
 ]
 
 [[package]]
+name = "obsdeck"
+version = "0.1.0"
+dependencies = [
+ "anyhow",
+ "obws",
+ "streamdeck",
+ "tokio",
+]
+
+[[package]]
 name = "obws"
 version = "0.10.0"
 source = "registry+https://github.com/rust-lang/crates.io-index"
@@ -1444,16 +1454,6 @@ dependencies = [
  "simplelog",
  "structopt",
  "thiserror",
-]
-
-[[package]]
-name = "streamdeck-rs"
-version = "0.1.0"
-dependencies = [
- "anyhow",
- "obws",
- "streamdeck",
- "tokio",
 ]
 
 [[package]]
